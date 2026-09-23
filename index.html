@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <!-- Meta Pixel Code -->
@@ -18,557 +19,563 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=965304855858724&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DOOM PREDICTION</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    >
+<title>DOOM PREDICTION</title>
 
-    <style>
+<!-- Font Awesome -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+>
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Roboto,
-                Helvetica,
-                Arial,
-                sans-serif;
-        }
+<style>
 
-        body {
-            min-height: 100vh;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif;
+    }
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
+    body {
+        min-height: 100vh;
 
-            padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            color: #ffffff;
+        padding: 20px;
 
-            background:
-                radial-gradient(
-                    circle at top,
-                    #142a38 0%,
-                    #09131b 45%,
-                    #050b10 100%
-                );
-        }
+        color: #ffffff;
 
-        /* =========================
-           MAIN CARD
-        ========================= */
+        background:
+            radial-gradient(
+                circle at top,
+                #142a38 0%,
+                #09131b 45%,
+                #050b10 100%
+            );
+    }
 
-        .card {
-            width: 100%;
-            max-width: 475px;
+    /* =========================
+       MAIN CARD
+    ========================= */
 
-            padding: 30px 25px;
+    .card {
+        width: 100%;
+        max-width: 475px;
 
-            text-align: center;
+        padding: 30px 25px;
 
-            background: rgba(18, 27, 35, 0.88);
+        text-align: center;
 
-            border: 1px solid rgba(255,255,255,0.12);
+        background: rgba(18, 27, 35, 0.88);
 
-            border-radius: 28px;
+        border: 1px solid rgba(255,255,255,0.12);
 
-            box-shadow:
-                0 20px 60px rgba(0,0,0,0.55),
-                0 0 50px rgba(0,150,255,0.06);
+        border-radius: 28px;
 
-            backdrop-filter: blur(15px);
-        }
+        box-shadow:
+            0 20px 60px rgba(0,0,0,0.55),
+            0 0 50px rgba(0,150,255,0.06);
 
-        /* =========================
-           LOGO
-        ========================= */
+        backdrop-filter: blur(15px);
+    }
 
-        .logo-wrapper {
-            width: 145px;
-            height: 145px;
+    /* =========================
+       LOGO
+    ========================= */
 
-            margin: 0 auto 18px;
+    .logo-wrapper {
+        width: 145px;
+        height: 145px;
 
-            padding: 5px;
+        margin: 0 auto 18px;
 
-            border-radius: 50%;
+        padding: 5px;
 
-            background: linear-gradient(
+        border-radius: 50%;
+
+        background: linear-gradient(
+            135deg,
+            #00ff55,
+            #00d9ff,
+            #00ff55
+        );
+
+        box-shadow:
+            0 0 15px rgba(0,255,100,0.8),
+            0 0 40px rgba(0,255,100,0.35);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-wrapper img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+
+        border-radius: 50%;
+
+        border: 4px solid #071017;
+
+        display: block;
+    }
+
+    /* =========================
+       TITLE
+    ========================= */
+
+    .main-title {
+        font-size: 28px;
+
+        font-weight: 900;
+
+        letter-spacing: 1px;
+
+        margin-bottom: 18px;
+
+        color: #ffffff;
+
+        text-transform: uppercase;
+
+        text-shadow:
+            0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    /* =========================
+       YELLOW BANNER
+    ========================= */
+
+    .yellow-banner {
+
+        background: #e8ed00;
+
+        color: #000000;
+
+        font-size: 15px;
+
+        font-weight: 800;
+
+        line-height: 1.35;
+
+        padding: 11px 15px;
+
+        border-radius: 8px;
+
+        margin-bottom: 28px;
+
+        box-shadow:
+            0 4px 20px rgba(232,237,0,0.12);
+    }
+
+    /* =========================
+       COUNTDOWN
+    ========================= */
+
+    .timer-text {
+
+        color: #94a3b8;
+
+        font-size: 14px;
+
+        font-weight: 700;
+
+        letter-spacing: 0.6px;
+
+        margin-bottom: 18px;
+
+    }
+
+    .timer-text span {
+
+        color: #22c55e;
+
+        font-weight: 900;
+
+        font-size: 15px;
+
+    }
+
+    /* =========================
+       TELEGRAM BUTTON
+    ========================= */
+
+    .btn-container {
+
+        position: relative;
+
+        width: 100%;
+
+        min-height: 88px;
+
+        padding: 15px 20px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        gap: 15px;
+
+        text-decoration: none;
+
+        cursor: pointer;
+
+        border-radius: 20px;
+
+        border: 2px solid #ffffff;
+
+        background:
+            linear-gradient(
                 135deg,
-                #00ff55,
-                #00d9ff,
-                #00ff55
+                #0088ff 0%,
+                #006fe6 50%,
+                #005bd4 100%
             );
 
-            box-shadow:
-                0 0 15px rgba(0,255,100,0.8),
-                0 0 40px rgba(0,255,100,0.35);
+        box-shadow:
+            0 0 12px rgba(0,136,255,0.9),
+            0 0 35px rgba(0,136,255,0.45),
+            inset 0 1px 0 rgba(255,255,255,0.25);
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+    }
+
+    .btn-container:hover {
+
+        transform: translateY(-2px) scale(1.01);
+
+        box-shadow:
+            0 0 18px rgba(0,136,255,1),
+            0 0 45px rgba(0,136,255,0.6);
+    }
+
+    .btn-container:active {
+
+        transform: scale(0.98);
+    }
+
+    /* =========================
+       MOVING TEXT
+    ========================= */
+
+    .moving-text {
+
+        color: #ffffff;
+
+        font-size: 17px;
+
+        font-weight: 900;
+
+        text-transform: uppercase;
+
+        line-height: 1.25;
+
+        letter-spacing: 0.5px;
+
+        display: inline-block;
+
+        animation:
+            moveInOut 1.2s ease-in-out infinite alternate;
+
+        text-shadow:
+            0 2px 5px rgba(0,0,0,0.25);
+    }
+
+    @keyframes moveInOut {
+
+        0% {
+            transform: scale(0.96);
         }
 
-        .logo-wrapper img {
-            width: 100%;
-            height: 100%;
+        100% {
+            transform: scale(1.04);
+        }
+    }
 
-            object-fit: cover;
+    /* =========================
+       TELEGRAM ICON
+    ========================= */
 
-            border-radius: 50%;
+    .tg-icon {
 
-            border: 4px solid #071017;
+        width: 48px;
+        height: 48px;
 
-            display: block;
+        flex-shrink: 0;
+
+        border-radius: 50%;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        background: #ffffff;
+
+        color: #0088ff;
+
+        font-size: 25px;
+
+        box-shadow:
+            0 4px 12px rgba(0,0,0,0.25);
+    }
+
+    /* =========================
+       DIVIDER
+    ========================= */
+
+    .divider {
+
+        border-top:
+            1px dashed rgba(255,255,255,0.18);
+
+        margin-top: 32px;
+
+        margin-bottom: 22px;
+    }
+
+    /* =========================
+       DISCLAIMER
+    ========================= */
+
+    .disclaimer {
+
+        font-size: 11px;
+
+        color: #718096;
+
+        line-height: 1.6;
+
+        margin-bottom: 5px;
+    }
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 480px) {
+
+        body {
+            padding: 15px;
         }
 
-        /* =========================
-           TITLE
-        ========================= */
+        .card {
+            padding: 27px 18px;
+            border-radius: 23px;
+        }
+
+        .logo-wrapper {
+            width: 125px;
+            height: 125px;
+            margin-bottom: 15px;
+        }
 
         .main-title {
-            font-size: 28px;
-
-            font-weight: 900;
-
-            letter-spacing: 1px;
-
-            margin-bottom: 18px;
-
-            color: #ffffff;
-
-            text-transform: uppercase;
-
-            text-shadow:
-                0 2px 10px rgba(0,0,0,0.5);
+            font-size: 23px;
         }
-
-        /* =========================
-           YELLOW BANNER
-        ========================= */
 
         .yellow-banner {
-
-            background: #e8ed00;
-
-            color: #000000;
-
-            font-size: 15px;
-
-            font-weight: 800;
-
-            line-height: 1.35;
-
-            padding: 11px 15px;
-
-            border-radius: 8px;
-
-            margin-bottom: 28px;
-
-            box-shadow:
-                0 4px 20px rgba(232,237,0,0.12);
+            font-size: 13px;
+            padding: 10px 12px;
         }
-
-        /* =========================
-           COUNTDOWN
-        ========================= */
-
-        .timer-text {
-
-            color: #94a3b8;
-
-            font-size: 14px;
-
-            font-weight: 700;
-
-            letter-spacing: 0.6px;
-
-            margin-bottom: 18px;
-
-        }
-
-        .timer-text span {
-
-            color: #22c55e;
-
-            font-weight: 900;
-
-            font-size: 15px;
-
-        }
-
-        /* =========================
-           TELEGRAM BUTTON
-        ========================= */
 
         .btn-container {
-
-            position: relative;
-
-            width: 100%;
-
-            min-height: 88px;
-
-            padding: 15px 20px;
-
-            display: flex;
-
-            align-items: center;
-
-            justify-content: center;
-
-            gap: 15px;
-
-            text-decoration: none;
-
-            cursor: pointer;
-
-            border-radius: 20px;
-
-            border: 2px solid #ffffff;
-
-            background:
-                linear-gradient(
-                    135deg,
-                    #0088ff 0%,
-                    #006fe6 50%,
-                    #005bd4 100%
-                );
-
-            box-shadow:
-                0 0 12px rgba(0,136,255,0.9),
-                0 0 35px rgba(0,136,255,0.45),
-                inset 0 1px 0 rgba(255,255,255,0.25);
-
-            transition:
-                transform 0.2s ease,
-                box-shadow 0.2s ease;
+            min-height: 80px;
+            padding: 12px 14px;
         }
-
-        .btn-container:hover {
-
-            transform: translateY(-2px) scale(1.01);
-
-            box-shadow:
-                0 0 18px rgba(0,136,255,1),
-                0 0 45px rgba(0,136,255,0.6);
-        }
-
-        .btn-container:active {
-
-            transform: scale(0.98);
-        }
-
-        /* =========================
-           MOVING TEXT
-        ========================= */
 
         .moving-text {
-
-            color: #ffffff;
-
-            font-size: 17px;
-
-            font-weight: 900;
-
-            text-transform: uppercase;
-
-            line-height: 1.25;
-
-            letter-spacing: 0.5px;
-
-            display: inline-block;
-
-            animation:
-                moveInOut 1.2s ease-in-out infinite alternate;
-
-            text-shadow:
-                0 2px 5px rgba(0,0,0,0.25);
+            font-size: 14px;
         }
-
-        @keyframes moveInOut {
-
-            0% {
-                transform: scale(0.96);
-            }
-
-            100% {
-                transform: scale(1.04);
-            }
-        }
-
-        /* =========================
-           TELEGRAM ICON
-        ========================= */
 
         .tg-icon {
-
-            width: 48px;
-            height: 48px;
-
-            flex-shrink: 0;
-
-            border-radius: 50%;
-
-            display: flex;
-
-            align-items: center;
-            justify-content: center;
-
-            background: #ffffff;
-
-            color: #0088ff;
-
-            font-size: 25px;
-
-            box-shadow:
-                0 4px 12px rgba(0,0,0,0.25);
+            width: 43px;
+            height: 43px;
+            font-size: 22px;
         }
-
-        /* =========================
-           DIVIDER
-        ========================= */
-
-        .divider {
-
-            border-top:
-                1px dashed rgba(255,255,255,0.18);
-
-            margin-top: 32px;
-
-            margin-bottom: 22px;
-        }
-
-        /* =========================
-           DISCLAIMER
-        ========================= */
 
         .disclaimer {
-
-            font-size: 11px;
-
-            color: #718096;
-
-            line-height: 1.6;
-
-            margin-bottom: 5px;
+            font-size: 10px;
         }
+    }
 
-        /* =========================
-           MOBILE
-        ========================= */
-
-        @media (max-width: 480px) {
-
-            body {
-                padding: 15px;
-            }
-
-            .card {
-                padding: 27px 18px;
-                border-radius: 23px;
-            }
-
-            .logo-wrapper {
-                width: 125px;
-                height: 125px;
-                margin-bottom: 15px;
-            }
-
-            .main-title {
-                font-size: 23px;
-            }
-
-            .yellow-banner {
-                font-size: 13px;
-                padding: 10px 12px;
-            }
-
-            .btn-container {
-                min-height: 80px;
-                padding: 12px 14px;
-            }
-
-            .moving-text {
-                font-size: 14px;
-            }
-
-            .tg-icon {
-                width: 43px;
-                height: 43px;
-                font-size: 22px;
-            }
-
-            .disclaimer {
-                font-size: 10px;
-            }
-        }
-
-    </style>
+</style>
 
 </head>
 
 <body>
 
-    <div class="card">
+<div class="card">
 
-        <!-- =========================
-             LOGO
-        ========================== -->
+    <!-- =========================
+         LOGO
+    ========================== -->
 
-        <div class="logo-wrapper">
+    <div class="logo-wrapper">
 
-            <!-- Put your Dr Doom image here -->
-            <img
-                src="IMG_20260920_163204_438.jpg"
-                alt="Doom Prediction Logo"
-            >
-
-        </div>
-
-
-        <!-- =========================
-             TITLE
-        ========================== -->
-
-        <h1 class="main-title">
-            DOOM PREDICTION
-        </h1>
-
-
-        <!-- =========================
-             YELLOW BANNER
-        ========================== -->
-
-        <div class="yellow-banner">
-
-            Accurate Analysis • Toss Update • Right Pred!ction
-
-        </div>
-
-
-        <!-- =========================
-             COUNTDOWN
-        ========================== -->
-
-        <div class="timer-text">
-
-            FREE JOINING ENDS IN
-
-            <span id="countdown">11s</span>
-
-        </div>
-
-
-        <!-- =========================
-             TELEGRAM BUTTON
-        ========================== -->
-
-        <a
-            href="javascript:void(0)"
-            class="btn-container"
-            onclick="triggerOneClickSubscribe()"
+        <!-- Put your Dr Doom image here -->
+        <img
+            src="IMG_20260920_163204_438.jpg"
+            alt="Doom Prediction Logo"
         >
-
-            <div class="moving-text">
-
-                JOIN TELEGRAM FOR NEW
-                <br>
-                UPDATE
-
-            </div>
-
-            <div class="tg-icon">
-
-                <i class="fa-brands fa-telegram"></i>
-
-            </div>
-
-        </a>
-
-
-        <!-- =========================
-             DIVIDER
-        ========================== -->
-
-        <div class="divider"></div>
-
-
-        <!-- =========================
-             DISCLAIMER
-        ========================== -->
-
-        <p class="disclaimer">
-
-            Disclaimer: This channel shares cricket updates,
-            analysis, and general information for fans.
-            It does not promote betting or gambling.
-            No outcomes are guaranteed.
-            Please verify independently and act responsibly.
-
-        </p>
 
     </div>
 
 
-    <script>
+    <!-- =========================
+         TITLE
+    ========================== -->
 
-        /* =========================
-           COUNTDOWN
-        ========================== */
-
-        let timeLeft = 11;
-
-        const countdownEl =
-            document.getElementById("countdown");
-
-        const timer = setInterval(function () {
-
-            timeLeft--;
-
-            if (timeLeft <= 0) {
-
-                timeLeft = 11;
-
-            }
-
-            countdownEl.innerText =
-                timeLeft + "s";
-
-        }, 1000);
+    <h1 class="main-title">
+        DOOM PREDICTION
+    </h1>
 
 
-        /* =========================
-           TELEGRAM REDIRECT
-        ========================== */
+    <!-- =========================
+         YELLOW BANNER
+    ========================== -->
 
-        function triggerOneClickSubscribe() {
-    // fire only once per visitor session
-    if (sessionStorage.getItem('subscribed')) {
-        window.location.href = "https://t.me/+e9F71pT2UM0yNjg1";
-        return;
+    <div class="yellow-banner">
+
+        Accurate Analysis • Toss Update • Right Pred!ction
+
+    </div>
+
+
+    <!-- =========================
+         COUNTDOWN
+    ========================== -->
+
+    <div class="timer-text">
+
+        FREE JOINING ENDS IN
+
+        <span id="countdown">11s</span>
+
+    </div>
+
+
+    <!-- =========================
+         TELEGRAM BUTTON
+    ========================== -->
+
+    <a
+        href="javascript:void(0)"
+        class="btn-container"
+        onclick="triggerOneClickSubscribe()"
+    >
+
+        <div class="moving-text">
+
+            JOIN TELEGRAM FOR NEW
+            <br>
+            UPDATE
+
+        </div>
+
+        <div class="tg-icon">
+
+            <i class="fa-brands fa-telegram"></i>
+
+        </div>
+
+    </a>
+
+
+    <!-- =========================
+         DIVIDER
+    ========================== -->
+
+    <div class="divider"></div>
+
+
+    <!-- =========================
+         DISCLAIMER
+    ========================== -->
+
+    <p class="disclaimer">
+
+        Disclaimer: This channel shares cricket updates,
+        analysis, and general information for fans.
+        It does not promote betting or gambling.
+        No outcomes are guaranteed.
+        Please verify independently and act responsibly.
+
+    </p>
+
+</div>
+
+
+<script>
+
+    /* =========================
+       COUNTDOWN
+    ========================== */
+
+    let timeLeft = 11;
+
+    const countdownEl =
+        document.getElementById("countdown");
+
+    const timer = setInterval(function () {
+
+        timeLeft--;
+
+        if (timeLeft <= 0) {
+
+            timeLeft = 11;
+
+        }
+
+        countdownEl.innerText =
+            timeLeft + "s";
+
+    }, 1000);
+
+
+    /* =========================
+       TELEGRAM REDIRECT
+    ========================== */
+
+    function triggerOneClickSubscribe() {
+
+        /* Meta Pixel */
+
+        if (typeof fbq !== "undefined") {
+
+            fbq("track", "Subscribe");
+
+            fbq("track", "Lead");
+
+        }
+
+
+        /* Telegram */
+
+        window.location.href =
+            "https://t.me/+e9F71pT2UM0yNjg1";
+
     }
-    sessionStorage.setItem('subscribed', '1');
 
-    if (typeof fbq !== "undefined") {
-        fbq("track", "Subscribe");
-    }
-
-    window.location.href = "https://t.me/+e9F71pT2UM0yNjg1";
-}
-    </script>
+</script>
 
 </body>
 </html>
