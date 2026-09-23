@@ -555,25 +555,20 @@ src="https://www.facebook.com/tr?id=965304855858724&ev=PageView&noscript=1"
         ========================== */
 
         function triggerOneClickSubscribe() {
+    // fire only once per visitor session
+    if (sessionStorage.getItem('subscribed')) {
+        window.location.href = "https://t.me/+e9F71pT2UM0yNjg1";
+        return;
+    }
+    sessionStorage.setItem('subscribed', '1');
 
-            /* Meta Pixel */
+    if (typeof fbq !== "undefined") {
+        fbq("track", "Subscribe");
+        fbq("track", "Lead");
+    }
 
-            if (typeof fbq !== "undefined") {
-
-                fbq("track", "Subscribe");
-
-                fbq("track", "Lead");
-
-            }
-
-
-            /* Telegram */
-
-            window.location.href =
-                "https://t.me/+e9F71pT2UM0yNjg1";
-
-        }
-
+    window.location.href = "https://t.me/+e9F71pT2UM0yNjg1";
+}
     </script>
 
 </body>
